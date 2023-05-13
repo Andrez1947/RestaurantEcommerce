@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papas Patt - Menu</title>
+    <link rel="shortcut icon" href="../images/log.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .menu {
+        background-color: #f8f9fa;
+      }
+
+      .menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        list-style: none;
+      }
+
+      .menu ul li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      .menu ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+      }
+
+      .titulo {
+        text-align: center;
+        margin: 40px 0;
+      }
+
+      .lproductos1,
+      .lproductos2 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+      }
+
+      .lproductos1 div,
+      .lproductos2 div {
+        text-align: center;
+        width: 240px;
+        background-color: #f8f9fa;
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      .lproductos1 img,
+      .lproductos2 img {
+        margin-bottom: 10px;
+        border-radius: 20px;
+      }
+
+      .price {
+        background: linear-gradient(to bottom, #ff4b1f, #ff9068);
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        padding: 5px 15px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .price:hover {
+        opacity: 0.9;
+      }
+
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+      }
+      .card {
+  text-align: center;
+  width: 280px;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card img {
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  
+}
+
+.card .card-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul
+          class="navbar-nav w-100 d-flex justify-content-between align-items-center"
+        >
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><img
+                class="img-fluid mx-auto d-block"
+                src="../images/log.png"
+                style="max-width: 70px"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link h3 text-dark" href="./index.html"
+              ><strong>Home</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link h3 text-dark" href="./Menu.html"
+              ><strong>Menu</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link h3 text-dark" href="#"
+              ><strong>Quienes somos</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link h3 text-dark" href="#"
+              ><strong>Servicio</strong></a
+            >
+          </li>
+          <li class="nav-item height-60px">
+            <a class="nav-link" href="./login.html"
+              ><img
+                class="avatar"
+                src="../images/burgerAvatar.jpeg"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                "
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="lproductos1">
+      <div class="card">
+        <img
+          src="../images/_MG_8439.jpg"
+          class="card-img-top"
+          alt="Montañeras"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Montañeras</h3>
+          <p class="card-text">Deliciosas papas criollas con chori...</p>
+          <h3 class="card-price">$13.500</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/_MG_8379.jpg" class="card-img-top" alt="Mixtas" />
+        <div class="card-body">
+          <h3 class="card-title">Mixtas</h3>
+          <p class="card-text">Croncantes papas a la francesa con...</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/_MG_8445.jpg" class="card-img-top" alt="Patacón" />
+        <div class="card-body">
+          <h3 class="card-title">Patacón</h3>
+          <p class="card-text">Patacón con carne desmechada, ensa...</p>
+        </div>
+      </div>
+    </div>
+    <div class="lproductos2">
+      <div class="card">
+        <img
+          src="../images/_MG_8423.jpg"
+          class="card-img-top"
+          alt="Hamburguesa"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Hamburguesa</h3>
+          <p class="card-text">Jugosa carne artesanal, queso, to...</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../images/_MG_8474.jpg"
+          class="card-img-top"
+          alt="Perro Caliente"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Perro Caliente</h3>
+          <p class="card-text">Esa salchicha a la parrilla, ensa...</p>
+          <h3 class="card-price">$12.500</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="../images/_MG_8501.jpg"
+          class="card-img-top"
+          alt="Tocipapas"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Tocipapas</h3>
+          <p class="card-text">Crujientes Papas a la francesa, to...</p>
+          <h3 class="card-price">$12.500</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
